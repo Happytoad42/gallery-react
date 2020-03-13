@@ -4,7 +4,7 @@ import './GitHubLink.css';
 
 const GitHubLink = () => {
 	return (
-		<a href="https://github.com/Happytoad42/gallery-react" className="github-link" target="_blank" noopener noreferrer>
+		<a href="https://github.com/Happytoad42/gallery-react" className="github-link" target="_blank" rel="noopener noreferrer">
 			<span>Код проекта на GitHub</span>
 			<svg  height="30px" viewBox="0 0 25 25" width="30px" class="">
 				<g>

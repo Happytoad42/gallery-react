@@ -22,9 +22,12 @@ const ImageModal = ({ activeImage, modalClosed }) => {
 				<div className="image-modal__container">
 					<div className="image-modal__image-container">
                         <img src={activeImage.url} alt={'Image by ' + activeImage.author} />
+						<p className="image-modal__placeholder">Image loading...</p>
                     </div>
+					
 					<span onClick={() => modalClosed()} className="image-modal__close" />
 				</div>
+				
 			</div>
 		)
 	} return null
