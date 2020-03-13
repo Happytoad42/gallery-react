@@ -15,6 +15,7 @@
 .image-list_load {
     padding: 10px 20px;
     border: 2px solid #ECEFF1;
+    border-radius: 13px;
     font-size: 24px;
     color: #ECEFF1;
     background: none;
