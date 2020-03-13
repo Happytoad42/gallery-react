@@ -1,5 +1,12 @@
 ## Basic gallery. Click a thumbnail to view the big picture.
 
-## Setup
+## GH-Pages link
 
-npm install ---> npm build
+https://happytoad42.github.io/gallery-react/
+
+## Dev server
+npm install ---> npm start
+
+## Build
+
+npm install ---> npm run build
