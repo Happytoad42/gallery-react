@@ -1,0 +1,38 @@
+.image-item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #ECEFF1;
+    border-radius: 13px;
+    overflow: hidden;
+
+    cursor: pointer;
+    transition: box-shadow .15s linear;
+}
+
+.image-item:hover {
+    box-shadow: 0 0 9px 0 #fff;
+}
+
+.image-item__image {
+    height: 275px;
+    width: 100%;
+}
+
+.image-item__foot {
+    width: 100%;
+    background-color: #263238;
+}
+
+.image-item__foot p {
+    font-size: 18px;
+    color: #ECEFF1;
+    font-weight: bold;
+}
+
+.image-item__image img {
+    width: 100%;
+    height: auto;
+}

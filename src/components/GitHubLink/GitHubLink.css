@@ -1,0 +1,25 @@
+.github-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid #ECEFF1;
+    border-radius: 13px;
+
+    text-decoration: none;
+    color: #ECEFF1;
+    font-size: 28px;
+}
+
+.github-link span {
+    margin-right: 1em;
+}
+
+.github-link:hover {
+    background-color: #ECEFF1;
+    color: #78909C;
+}
+
+.github-link:hover svg path {
+    fill: #78909C;
+}

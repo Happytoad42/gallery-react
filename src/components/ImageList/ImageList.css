@@ -1,0 +1,37 @@
+.image-list {
+    max-width: 1280px;
+    margin: 2rem auto;
+    
+}
+
+.image-list__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    grid-gap: 1em;
+    list-style: none;
+}
+
+.image-list_load {
+    padding: 10px 20px;
+    border: 2px solid #ECEFF1;
+    font-size: 24px;
+    color: #ECEFF1;
+    background: none;
+    cursor: pointer;
+}
+
+.image-list_load:hover {
+    color: #90A4AE;
+    background-color: #ECEFF1;
+}
+
+@media (max-width: 1000px) {
+    .image-list__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-gap: 1em;
+        list-style: none;
+    }
+}
